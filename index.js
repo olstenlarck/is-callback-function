@@ -37,6 +37,10 @@ var inArray = require('in-array')
  *
  * console.log(isCallback(function named (foo) {})) // => false
  * console.log(isAsync(function named (foo) {})) // => false
+ *
+ * console.log(isCallback(function foo (bar) {}, ['baz', 'foo', 'qux'])) // => true
+ * console.log(isAsync(function foo (bar, qux) {}, ['baz', 'qux', 'aaa'])) // => true
+ * console.log(isAsync(function foo (bar, qux) {}, ['baz', 'aaa'])) // => false
  * ```
  *
  * @param  {Function} `fn`

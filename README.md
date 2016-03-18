@@ -16,12 +16,13 @@ npm i is-callback-function --save
 const isCallbackFunction = require('is-callback-function')
 ```
 
-### [isCallbackFunction](index.js#L47)
+### [isCallbackFunction](index.js#L52)
 > Check if given `fn` is callback function or not. Notice that "async" functions are not `is-callback-function`, they are [is-async-function][] - it may be consfusing, but they are different.
 
 **Params**
 
 * `fn` **{Function}**    
+* `names` **{Array}**    
 * `returns` **{Boolean}**  
 
 **Example**
@@ -45,6 +46,10 @@ console.log(isAsync(function named (foo, cb) {})) // => true
 
 console.log(isCallback(function named (foo) {})) // => false
 console.log(isAsync(function named (foo) {})) // => false
+
+console.log(isCallback(function foo (bar) {}, ['baz', 'foo', 'qux'])) // => true
+console.log(isAsync(function foo (bar, qux) {}, ['baz', 'qux', 'aaa'])) // => true
+console.log(isAsync(function foo (bar, qux) {}, ['baz', 'aaa'])) // => false
 ```
 
 ## Contributing
