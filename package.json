@@ -1,0 +1,47 @@
+{
+  "name": "is-callback-function",
+  "version": "0.0.0",
+  "description": "Returns true if function is a callback. Checks its name is one of common-callback-names - callback, cb, cb_, callback_, next, done, they can be customized, these are default.",
+  "repository": "tunnckoCore/is-callback-function",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "common-callback-names": "^1.0.1",
+    "get-fn-name": "^1.0.0",
+    "in-array": "^0.1.0"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "pre-commit": "*"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "callback",
+    "cb",
+    "check",
+    "common",
+    "done",
+    "fn",
+    "function",
+    "is",
+    "is-callback-function",
+    "name",
+    "names",
+    "next",
+    "validate"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ]
+  }
+}
