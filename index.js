@@ -8,7 +8,7 @@
 'use strict'
 
 var fnName = require('get-fn-name')
-var names = require('common-callback-names')
+var common = require('common-callback-names')
 var inArray = require('in-array')
 
 /**
@@ -40,10 +40,11 @@ var inArray = require('in-array')
  * ```
  *
  * @param  {Function} `fn`
+ * @param  {Array} `names`
  * @return {Boolean}
  * @api public
  */
 
-module.exports = function isCallbackFunction (fn) {
-  return inArray(names, fnName(fn))
+module.exports = function isCallbackFunction (fn, names) {
+  return inArray(names || common, fnName(fn))
 }

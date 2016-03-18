@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "assertit": "^0.1.0",
+    "is-async-function": "^1.1.1",
     "pre-commit": "*"
   },
   "files": [
