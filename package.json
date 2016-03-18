@@ -45,9 +45,20 @@
     "tasks": [
       "readme"
     ],
+    "related": {
+      "list": [
+        "is-async-function",
+        "function-arguments",
+        "arr-includes",
+        "get-fn-name",
+        "common-callback-names",
+        "in-array"
+      ]
+    },
     "reflinks": [
       "is-async-function",
-      "common-callback-names"
+      "common-callback-names",
+      "in-array"
     ],
     "lint": {
       "reflinks": true

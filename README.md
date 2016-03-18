@@ -58,6 +58,14 @@ console.log(isAsync(function foo (bar, qux) {}, ['baz', 'aaa'])) // => false
 - `is-callback-function` - checks the name of given function
 - `is-async-function` - checks the arguments names of given function
 
+## Related
+* [arr-includes](https://www.npmjs.com/package/arr-includes): Return true if any of passed values exists in array. Using [in-array][]. | [homepage](https://github.com/tunnckocore/arr-includes)
+* [common-callback-names](https://www.npmjs.com/package/common-callback-names): List of common callback names - callback, cb, callback_, next, done. | [homepage](https://github.com/tunnckocore/common-callback-names)
+* [function-arguments](https://www.npmjs.com/package/function-arguments): Get arguments of a function, useful for and used in dependency injectors.… [more](https://www.npmjs.com/package/function-arguments) | [homepage](https://github.com/tunnckocore/function-arguments)
+* [get-fn-name](https://www.npmjs.com/package/get-fn-name): Get function name with strictness and correctness in mind. Also works for… [more](https://www.npmjs.com/package/get-fn-name) | [homepage](https://github.com/tunnckocore/get-fn-name)
+* [in-array](https://www.npmjs.com/package/in-array): Return true if a value exists in an array. Faster than using… [more](https://www.npmjs.com/package/in-array) | [homepage](https://github.com/jonschlinkert/in-array)
+* [is-async-function](https://www.npmjs.com/package/is-async-function): Is function really asynchronous (callback) function? Trying to guess that based on… [more](https://www.npmjs.com/package/is-async-function) | [homepage](https://github.com/tunnckocore/is-async-function)
+
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/is-callback-function/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
@@ -68,6 +76,7 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [is-async-function]: https://github.com/tunnckocore/is-async-function
 [common-callback-names]: https://github.com/tunnckocore/common-callback-names
+[in-array]: https://github.com/jonschlinkert/in-array
 
 [npmjs-url]: https://www.npmjs.com/package/is-callback-function
 [npmjs-img]: https://img.shields.io/npm/v/is-callback-function.svg?label=is-callback-function
