@@ -1,7 +1,7 @@
 {
   "name": "is-callback-function",
   "version": "0.0.0",
-  "description": "Returns true if function is a callback. Checks its name is one of common-callback-names - callback, cb, cb_, callback_, next, done, they can be customized, these are default.",
+  "description": "Returns true if function is a callback. Checks its name is one of [common-callback-names][] - callback, cb, cb_, callback_, next, done, they can be customized, these are default.",
   "repository": "tunnckoCore/is-callback-function",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
   "precommit.silent": true,
@@ -46,7 +46,8 @@
       "readme"
     ],
     "reflinks": [
-      "is-async-function"
+      "is-async-function",
+      "common-callback-names"
     ],
     "lint": {
       "reflinks": true

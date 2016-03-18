@@ -1,6 +1,6 @@
 # [is-callback-function][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] 
 
-> Returns true if function is a callback. Checks its name is one of common-callback-names - callback, cb, cb_, callback_, next, done, they can be customized, these are default.
+> Returns true if function is a callback. Checks its name is one of [common-callback-names][] - callback, cb, cb_, callback_, next, done, they can be customized, these are default.
 
 [![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
 
@@ -67,6 +67,7 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [![tunnckoCore.tk][author-www-img]][author-www-url] [![keybase tunnckoCore][keybase-img]][keybase-url] [![tunnckoCore npm][author-npm-img]][author-npm-url] [![tunnckoCore twitter][author-twitter-img]][author-twitter-url] [![tunnckoCore github][author-github-img]][author-github-url]
 
 [is-async-function]: https://github.com/tunnckocore/is-async-function
+[common-callback-names]: https://github.com/tunnckocore/common-callback-names
 
 [npmjs-url]: https://www.npmjs.com/package/is-callback-function
 [npmjs-img]: https://img.shields.io/npm/v/is-callback-function.svg?label=is-callback-function
