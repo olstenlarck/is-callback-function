@@ -52,6 +52,12 @@ console.log(isAsync(function foo (bar, qux) {}, ['baz', 'qux', 'aaa'])) // => tr
 console.log(isAsync(function foo (bar, qux) {}, ['baz', 'aaa'])) // => false
 ```
 
+## Whaaat?!
+> Need clarification? Both signatures are equal.
+
+- `is-callback-function` - checks the name of given function
+- `is-async-function` - checks the arguments names of given function
+
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/is-callback-function/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
