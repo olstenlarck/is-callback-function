@@ -38,10 +38,17 @@
     "validate"
   ],
   "verb": {
+    "run": true,
     "toc": false,
     "layout": "empty",
     "tasks": [
       "readme"
-    ]
+    ],
+    "reflinks": [
+      "is-async-function"
+    ],
+    "lint": {
+      "reflinks": true
+    }
   }
 }

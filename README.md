@@ -24,9 +24,7 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [![tunnckoCore.tk][author-www-img]][author-www-url] [![keybase tunnckoCore][keybase-img]][keybase-url] [![tunnckoCore npm][author-npm-img]][author-npm-url] [![tunnckoCore twitter][author-twitter-img]][author-twitter-url] [![tunnckoCore github][author-github-img]][author-github-url]
 
-[common-callback-names]: https://github.com/tunnckocore/common-callback-names
-[get-fn-name]: https://github.com/tunnckocore/get-fn-name
-[in-array]: https://github.com/jonschlinkert/in-array
+[is-async-function]: https://github.com/tunnckocore/is-async-function
 
 [npmjs-url]: https://www.npmjs.com/package/is-callback-function
 [npmjs-img]: https://img.shields.io/npm/v/is-callback-function.svg?label=is-callback-function
