@@ -16,6 +16,37 @@ npm i is-callback-function --save
 const isCallbackFunction = require('is-callback-function')
 ```
 
+### [isCallbackFunction](index.js#L47)
+> Check if given `fn` is callback function or not. Notice that "async" functions are not `is-callback-function`, they are [is-async-function][] - it may be consfusing, but they are different.
+
+**Params**
+
+* `fn` **{Function}**    
+* `returns` **{Boolean}**  
+
+**Example**
+
+```js
+var fs = require('fs')
+var isCallback = require('is-callback-function')
+var isAsync = require('is-callback-function')
+
+console.log(isCallback(fs.readFile)) // => false
+console.log(isAsync(fs.readFile)) // => true
+
+console.log(isCallback(function (foo, bar, cb) {})) // => false
+console.log(isAsync(function (foo, bar, cb) {})) // => true
+
+console.log(isCallback(function callback (foo, bar) {})) // => true
+console.log(isAsync(function callback (foo, bar) {})) // => false
+
+console.log(isCallback(function named (foo, cb) {})) // => false
+console.log(isAsync(function named (foo, cb) {})) // => true
+
+console.log(isCallback(function named (foo) {})) // => false
+console.log(isAsync(function named (foo) {})) // => false
+```
+
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/is-callback-function/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
