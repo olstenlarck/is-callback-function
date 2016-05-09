@@ -42,6 +42,7 @@ test('should allow passing custom names to be treated as `callback`', function (
   function foo () {}
   test.strictEqual(isCallbackFunction(foo, ['baz', 'foo', 'qux']), true)
   test.strictEqual(isCallbackFunction(function foo (bar) {}, ['baz', 'foo', 'qux']), true)
+  test.strictEqual(isCallbackFunction(function (bar) {}, ['baz', null, 'foo', 'qux']), true)
   test.strictEqual(isAsyncFunction(function foo (bar, qux) {}, ['baz', 'qux', 'aaa']), true)
   test.strictEqual(isAsyncFunction(function foo (bar, qux) {}, ['baz', 'aaa']), false)
   done()
