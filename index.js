@@ -21,7 +21,7 @@ var inArray = require('in-array')
  * ```js
  * var fs = require('fs')
  * var isCallback = require('is-callback-function')
- * var isAsync = require('is-callback-function')
+ * var isAsync = require('is-async-function')
  *
  * console.log(isCallback(fs.readFile)) // => false
  * console.log(isAsync(fs.readFile)) // => true

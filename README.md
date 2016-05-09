@@ -30,7 +30,7 @@ const isCallbackFunction = require('is-callback-function')
 ```js
 var fs = require('fs')
 var isCallback = require('is-callback-function')
-var isAsync = require('is-callback-function')
+var isAsync = require('is-async-function')
 
 console.log(isCallback(fs.readFile)) // => false
 console.log(isAsync(fs.readFile)) // => true
@@ -64,7 +64,7 @@ console.log(isAsync(function foo (bar, qux) {}, ['baz', 'aaa'])) // => false
 * [function-arguments](https://www.npmjs.com/package/function-arguments): Get arguments of a function, useful for and used in dependency injectors.… [more](https://www.npmjs.com/package/function-arguments) | [homepage](https://github.com/tunnckocore/function-arguments)
 * [get-fn-name](https://www.npmjs.com/package/get-fn-name): Get function name with strictness and correctness in mind. Also works for… [more](https://www.npmjs.com/package/get-fn-name) | [homepage](https://github.com/tunnckocore/get-fn-name)
 * [in-array](https://www.npmjs.com/package/in-array): Return true if a value exists in an array. Faster than using… [more](https://www.npmjs.com/package/in-array) | [homepage](https://github.com/jonschlinkert/in-array)
-* [is-async-function](https://www.npmjs.com/package/is-async-function): Is function really asynchronous (callback) function? Trying to guess that based on… [more](https://www.npmjs.com/package/is-async-function) | [homepage](https://github.com/tunnckocore/is-async-function)
+* [is-async-function](https://www.npmjs.com/package/is-async-function): Is function really asynchronous function? Trying to guess that based on check… [more](https://www.npmjs.com/package/is-async-function) | [homepage](https://github.com/tunnckocore/is-async-function)
 
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/is-callback-function/issues/new).  
@@ -74,9 +74,9 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [![tunnckoCore.tk][author-www-img]][author-www-url] [![keybase tunnckoCore][keybase-img]][keybase-url] [![tunnckoCore npm][author-npm-img]][author-npm-url] [![tunnckoCore twitter][author-twitter-img]][author-twitter-url] [![tunnckoCore github][author-github-img]][author-github-url]
 
-[is-async-function]: https://github.com/tunnckocore/is-async-function
 [common-callback-names]: https://github.com/tunnckocore/common-callback-names
 [in-array]: https://github.com/jonschlinkert/in-array
+[is-async-function]: https://github.com/tunnckocore/is-async-function
 
 [npmjs-url]: https://www.npmjs.com/package/is-callback-function
 [npmjs-img]: https://img.shields.io/npm/v/is-callback-function.svg?label=is-callback-function
@@ -119,4 +119,3 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [new-message-url]: https://github.com/tunnckoCore/ama
 [new-message-img]: https://img.shields.io/badge/ask%20me-anything-green.svg
-
