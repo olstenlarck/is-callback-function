@@ -1,4 +1,4 @@
-# [is-callback-function][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] 
+# [is-callback-function][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] [![npm downloads][downloads-img]][downloads-url] 
 
 > Returns true if function is a callback. Checks its name is one of [common-callback-names][] - callback, cb, cb_, callback_, next, done, they can be customized, these are default.
 
@@ -82,7 +82,10 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [npmjs-img]: https://img.shields.io/npm/v/is-callback-function.svg?label=is-callback-function
 
 [license-url]: https://github.com/tunnckoCore/is-callback-function/blob/master/LICENSE
-[license-img]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-img]: https://img.shields.io/npm/l/is-callback-function.svg
+
+[downloads-url]: https://www.npmjs.com/package/is-callback-function
+[downloads-img]: https://img.shields.io/npm/dm/is-callback-function.svg
 
 [codeclimate-url]: https://codeclimate.com/github/tunnckoCore/is-callback-function
 [codeclimate-img]: https://img.shields.io/codeclimate/github/tunnckoCore/is-callback-function.svg
